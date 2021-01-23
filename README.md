@@ -7,7 +7,7 @@ Algorithm:
 
     1. traverse the string
 
-    2. when you encounter an opening bracket i.e.  (, {, \[ push it into the stack
+    2. when you encounter an opening bracket i.e.  (, {, [ push it into the stack
 
     3. when you encounter a closing bracket, check to see if the top item on the stack is its matching opener. if they are a pair continue, return false (unbalanced) otherwise
 
